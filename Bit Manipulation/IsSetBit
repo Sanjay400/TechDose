@@ -1,0 +1,19 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+   
+int n,pos;
+cin>>n>>pos;
+if(pos==0){
+    cout<<"Invalid Position";
+    
+}else if((n&(1<<pos-1))>0){
+    cout<<"Yes";
+}else{
+    cout<<"No";
+}
+    
+}
